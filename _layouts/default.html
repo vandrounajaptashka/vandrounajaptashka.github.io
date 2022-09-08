@@ -33,9 +33,12 @@
 </ul>
 
 {%- include playerjs.html -%}
+
+
 <script type="module">
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js";
+  import { getMessaging, getToken } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-messaging.js";
   // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -52,6 +55,18 @@
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
+  const messaging = getMessaging();
+  getToken(messaging, { vapidKey: 'BBbN5pRqfAOot22I87Axc4NMp9Ty1mdyEq1HEINYyDbB7GuXSyoUsRlDlQjUaOE8lxTanU4e37KJ9Wn-bVThEf0' }).then((currentToken) => {
+  if (currentToken) {
+    console.log("GOT TOKEN")
+  } else {
+    console.log('No registration token available. Request permission to generate one.');
+  }
+}).catch((err) => {
+  console.log('An error occurred while retrieving token. ', err);
+});
+
+
 </script>
 </body>
 </html>
