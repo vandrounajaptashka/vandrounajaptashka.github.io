@@ -59,13 +59,6 @@
   getToken(messaging, { vapidKey: 'BBbN5pRqfAOot22I87Axc4NMp9Ty1mdyEq1HEINYyDbB7GuXSyoUsRlDlQjUaOE8lxTanU4e37KJ9Wn-bVThEf0' }).then((currentToken) => {
   if (currentToken) {
     console.log("GOT TOKEN")
-    messaging.subscribeToTopic([currentToken], "podcast")
-    .then((response) => {
-      console.log('Successfully subscribed to topic:', response);
-    })
-    .catch((error) => {
-      console.log('Error subscribing to topic:', error);
-    });
   } else {
     console.log('No registration token available. Request permission to generate one.');
   }
