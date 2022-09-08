@@ -30,7 +30,7 @@ websites-podcast:
   - {name: 'RSS', link: 'https://soundcloud.com/user-85901604-934869675/vandrounaja-ptashka-1-palanechka?si=68bee7048fc3451ba3e3c19b676d49d0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'}
 
 translate-date: false #See _includes/date.html to translate the months' name
-shownotes: true
+shownotes: false
 
 #Disqus
 disqus:
