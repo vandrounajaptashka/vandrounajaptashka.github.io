@@ -33,6 +33,25 @@
 </ul>
 
 {%- include playerjs.html -%}
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCWNvmJYUnLj9J3d2pKLoA4I09fGHiA-_w",
+    authDomain: "noted-processor-92815.firebaseapp.com",
+    databaseURL: "https://noted-processor-92815.firebaseio.com",
+    projectId: "noted-processor-92815",
+    storageBucket: "noted-processor-92815.appspot.com",
+    messagingSenderId: "363634336895",
+    appId: "1:363634336895:web:d2d5d53b051cc1b0908b4a"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
 </body>
 </html>
