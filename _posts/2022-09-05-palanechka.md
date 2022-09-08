@@ -1,5 +1,5 @@
 ---
-title: \#1 Palanechka
+title: #1 Palanechka
 layout: post
 categories: [Ptashka]
 type: main # I use this to split main episodes to extra ones
