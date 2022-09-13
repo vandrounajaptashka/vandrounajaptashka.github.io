@@ -13,7 +13,7 @@ social:
 #  - {icon: 'facebook', type: "brand", link: '#'}
 #  - {icon: 'youtube', type: "brand", link: '#'}  
 #  - {icon: 'envelope', type: "solid", link: 'mailto:alessiofranceschi2@gmail.com'}
-  - {icon: 'rss', type: "solid", link: "https://soundcloud.com/user-85901604-934869675/vandrounaja-ptashka-1-palanechka?si=68bee7048fc3451ba3e3c19b676d49d0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"}
+  - {icon: 'rss', type: "solid", link: "https://cloud.mave.digital/40532"}
 
 websites-podcast:
 #  - {name: 'Apple Podcast', link: '#'}
