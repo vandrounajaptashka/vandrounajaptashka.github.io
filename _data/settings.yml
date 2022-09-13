@@ -8,7 +8,7 @@ pages:
 #  - {name: 'Get This Theme', link: 'https://github.com/PandaSekh/Jekyll-Podcaster'}
 
 social:
-  - {icon: 'instagram', type: "brand", link: '#'}
+  - {icon: 'instagram', type: "brand", link: 'https://www.instagram.com/vandrounaja_ptashka/'}
 #  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/ArteLettura'}
 #  - {icon: 'facebook', type: "brand", link: '#'}
 #  - {icon: 'youtube', type: "brand", link: '#'}  
