@@ -21,13 +21,13 @@ websites-podcast:
 #  - {name: 'YouTube', link: '#'}
 #  - {name: 'Android', link: '#'}
 #  - {name: 'Spreaker', link: '#'}
-#  - {name: 'Google Podcast', link: '#'}
+#  - {name: 'Google Podcast', link: 'https://podcasts.google.com/feed/aHR0cHM6Ly9jbG91ZC5tYXZlLmRpZ2l0YWwvNDA1MzI?ep=14'}
 #  - {name: 'Anchor', link: '#'}
 #  - {name: 'Castbox', link: '#'}
 #  - {name: 'Overcast', link: '#'}
 #  - {name: 'RadioPublic', link: '#'}
-#  - {name: 'Breaker', link: '#'}  
-  - {name: 'RSS', link: 'https://soundcloud.com/user-85901604-934869675/vandrounaja-ptashka-1-palanechka?si=68bee7048fc3451ba3e3c19b676d49d0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'}
+  - {name: 'Soundcloud', link: 'https://soundcloud.com/user-85901604-934869675/vandrounaja-ptashka-1-palanechka?si=68bee7048fc3451ba3e3c19b676d49d0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'} 
+  - {name: 'RSS', link: 'https://cloud.mave.digital/40532'}
 
 translate-date: false #See _includes/date.html to translate the months' name
 shownotes: false
