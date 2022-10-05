@@ -1,5 +1,5 @@
 ---
-title: "#2 Genealogy"
+title: "#2 Genealogija"
 layout: post
 categories: [Ptashka]
 type: main # I use this to split main episodes to extra ones
