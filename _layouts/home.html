@@ -35,7 +35,6 @@ layout: default
     {% capture title %}
         {{- post.title -}}
     {% endcapture %}
-    {% include player.html file=file title=title %}
 
     <div class = "long-excerpt">
         <p>
@@ -58,6 +57,7 @@ layout: default
             <span class = "continue-reading"><a href="{{ post.url | absolute_url }}">Continue</a></span> 
         </p> 
     </div>
+    {% include player.html file=file title=title %}
 
 </div>
 {% endfor %}
