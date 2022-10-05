@@ -1,5 +1,5 @@
 ---
-title: #3 Muzej haradskoj pamiaci
+title: "#3 Muzej haradskoj pamiaci"
 layout: post
 categories: [Ptashka]
 type: main # I use this to split main episodes to extra ones
